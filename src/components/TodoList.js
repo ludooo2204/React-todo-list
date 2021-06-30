@@ -12,6 +12,7 @@ console.log(taskList);
          axios.post('https://lomano.go.yo.fr/api/aideMemoire/get.php', "")
             .then(e => {
                 console.log(e.data);
+                // console.log(e.data);
                 setTaskList(e.data)
             })
 
